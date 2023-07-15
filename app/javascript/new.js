@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // csrf-tokenを取得
   const token = document.querySelector('meta[name="csrf-token"]').getAttribute('content');
   // LIFF_ID を定数定義
-  const LIFF_ID = ENV['LIFF_ID'];
+  const LIFF_ID = "2000134033-4RnRAgdL";
   // LIFF_IDを使ってLIFFの初期化
   liff
     .init({
